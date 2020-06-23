@@ -1,3 +1,5 @@
+let displayValue = document.querySelector("#displayValue");
+
 let add = function(num1, num2) {
  return num1 + num2;
 }
@@ -18,4 +20,3 @@ function operate(num1, num2, math) {
  return math(num1, num2);
 }
 
-console.log(operate(8, 2, divide));
