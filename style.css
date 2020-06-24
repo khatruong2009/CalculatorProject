@@ -1,7 +1,9 @@
+/*header text*/
 .header {
  text-align: center;
 }
 
+/*calculator buttons*/
 .row {
  display: flex;
  justify-content: center;
@@ -10,22 +12,35 @@
 .row button {
  font-size: 40px;
  padding: 10px;
- margin: 10px;
  width: 10%;
 }
 
 #number {
  display: flex;
- justify-content: center;
+ justify-content: flex-end;
  font-size: 50px;
- background-color: lightgrey;
- width: 44%;
+ background-color: black;
+ width: 40%;
  margin-left: auto;
  margin-right: auto;
+ color: white;
 }
 
 #number p{
  margin-top: 0px;
  margin-bottom: 10px;
+ padding-right: 20px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+/*operator buttons*/
+.operator {
+ background-color: orange;
+}
+
+/*styling when an operator is selected*/
+.is-clicked {
+ background-color: rgb(156, 89, 6);
 }
 
