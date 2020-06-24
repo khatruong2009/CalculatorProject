@@ -6,48 +6,28 @@
  <title>Calculator</title>
  <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
- <div class="header">
-  <h1>Calculator</h1>
+ <div class="wrapper">
+  <div class="top-row">
+   <h1>Calculator</h1>
+  </div>
+
+  <div class="display line">
+   <p>0</p>
+  </div>
+
+  <div class="line">
+   <button class="col-1">AC</button>
+   <button class="col-2">+/-</button>
+   <button class="col-3">%</button>
+   <button class="col-4">/</button>
+  </div>
  </div>
 
- <div class="calculator">
-  <div id="number">
-   <p id="displayValue">0</p>
-  </div>
-
-  <div class="row">
-   <button id="1">1</button>
-   <button id="2">2</button>
-   <button id="3">3</button>
-   <button data-action="minus" class="operator" id="minus">-</button>
-  </div>
-
-  <div class="row">
-   <button id="4">4</button>
-   <button id="5">5</button>
-   <button id="6">6</button>
-   <button data-action="plus" class="operator" id="plus">+</button>
-  </div>
-
-  <div class="row">
-   <button id="7">7</button>
-   <button id="8">8</button>
-   <button id="9">9</button>
-   <button data-action="times" class="operator" id="times">*</button>
-  </div>
-
-  <div class="row">
-   <button data-action="clear" id="clear">Clear</button>
-   <button id="0">0</button>
-   <button data-action="equals" class="operator" id="equals">=</button>
-   <button data-action="divide" class="operator" id="divide">/</button>
-  </div>
-
-
- </div>
  
-</body>
 
+</body>
 <script type="text/javascript" src="script.js"></script>
 </html>
