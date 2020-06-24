@@ -6,7 +6,7 @@ body {
 
 /*container containing the calculator*/
 .wrapper {
- width: 25%;
+ width: 20%;
  text-align: center;
  display: grid;
  grid-template-columns: repeat(4, 1fr);
@@ -19,7 +19,7 @@ body {
 
 .line {
  font-size: 40px;
- width: 400px;
+ width: 300px;
  display: grid;
  grid-template-columns: repeat(4, 1fr);
  grid-auto-rows: minmax(50px, auto);
