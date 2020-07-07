@@ -83,3 +83,7 @@ body {
 .operator {
  background-color: orange;
 }
+
+.selected {
+ background-color: orangered;
+}
