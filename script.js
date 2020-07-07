@@ -58,12 +58,15 @@ keys.forEach((elem) => {
       // }
       // n2 = "";
     }
+    //if an operator is clicked before there is a number, number1 is automatically set to 0
      else print = 0;
-   } else if (v == "AC") {
+   } //steps for when AC button is clicked 
+    else if (v == "AC") {
      print = 0;
      n1 = n2 = "";
      state = 0;
-   } else if (v == "+/-") {
+   } //steps for when the +/- button is clicked
+    else if (v == "+/-") {
      if (state) {
       n2 *= -1;
       print = n2;
@@ -84,31 +87,9 @@ keys.forEach((elem) => {
    }
  }
  console.log(n1, n2, result);
+ // displays the result as a float on to the calculator display
  display.innerHTML = parseFloat(print);
 })});
 
 
-
-
-//operate function
-function operate(num1, num2, math) {
- return math(num1, num2);
-}
-
-//math functions
-function add(num1, num2) {
- return num1 + num2;
-}
-
-function subtract(num1, num2) {
- return num1 - num2;
-}
-
-function multiply(num1, num2) {
- return num1 * num2;
-}
-
-function divide(num1, num2) {
- return num1/num2;
-}
 
